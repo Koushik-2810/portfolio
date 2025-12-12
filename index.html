@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koushik Reddy Gunjala | Senior AI Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- AI Terminal Cursor -->
+    <div class="ai-cursor"></div>
+    
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-terminal">
+            <div class="terminal-header">
+                <span class="terminal-title">AI_SYSTEM_BOOT</span>
+                <div class="terminal-buttons">
+                    <span class="btn close"></span>
+                    <span class="btn minimize"></span>
+                    <span class="btn maximize"></span>
+                </div>
+            </div>
+            <div class="terminal-body">
+                <div class="terminal-line">
+                    <span class="prompt">$</span>
+                    <span class="command">initializing neural networks...</span>
+                    <span class="cursor">_</span>
+                </div>
+                <div class="terminal-line">
+                    <span class="prompt">$</span>
+                    <span class="command">loading AI models...</span>
+                </div>
+                <div class="terminal-line">
+                    <span class="prompt">$</span>
+                    <span class="command">connecting to vector database...</span>
+                </div>
+                <div class="terminal-line">
+                    <span class="prompt">$</span>
+                    <span class="command success">portfolio ready!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">&gt; KRG_AI</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particles"></div>
+            <div class="neural-network"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-main">Koushik Reddy Gunjala</span>
+                    <span class="title-sub glitch" data-text="Senior AI Engineer">Senior AI Engineer</span>
+                </h1>
+                <p class="hero-description">
+                    Bridging Big Data Architecture with Agentic AI Systems • 
+                    <span class="highlight">RAG</span> • 
+                    <span class="highlight">Multi-Agent Systems</span> • 
+                    <span class="highlight">Healthcare AI</span>
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">30%</span>
+                        <span class="stat-label">Cost Reduction</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">TB+</span>
+                        <span class="stat-label">Data Processed</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View Projects
+                    </a>
+                    <a href="mailto:krg3572@gmail.com" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="ai-brain">
+                    <div class="brain-core"></div>
+                    <div class="neural-paths"></div>
+                    <div class="data-particles"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a <span class="highlight">Senior AI Engineer</span> seamlessly bridging the gap between 
+                        Big Data Architecture and modern Agentic AI Systems, with a proven track record in 
+                        <span class="highlight">healthcare AI</span> and <span class="highlight">HIPAA compliance</span>.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <i class="fas fa-brain"></i>
+                            <h3>AI Expertise</h3>
+                            <p>Production-grade RAG systems using LangGraph, Azure OpenAI, and Vector Search</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fas fa-database"></i>
+                            <h3>Big Data</h3>
+                            <p>TB-scale ETL pipelines on AWS EMR and PySpark before pivoting to ML infrastructure</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fas fa-robot"></i>
+                            <h3>Autonomous Agents</h3>
+                            <p>Multi-Step Reasoning and Tool Calling (MCP) for complex healthcare workflows</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-buttons">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="window-title">ai_engineer.py</span>
+                        </div>
+                        <div class="code-content">
+                            <pre><code class="python">
+class AIEngineer:
+    def __init__(self):
+        self.name = "Koushik Reddy Gunjala"
+        self.role = "Senior AI Engineer"
+        self.expertise = [
+            "RAG Systems",
+            "Multi-Agent AI", 
+            "Healthcare AI",
+            "Big Data Architecture"
+        ]
+        
+    def build_agentic_system(self):
+        # Implementing autonomous agents
+        # with multi-step reasoning
+        return "Production-ready AI solutions"
+        
+    def optimize_performance(self):
+        # 30% cost reduction achieved
+        # through semantic caching
+        pass</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-year="2024">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Senior AI Engineer</h3>
+                        <h4>UnitedHealth Group</h4>
+                        <p>Building Multi-Agent AI Systems for healthcare automation using LangGraph and Azure OpenAI</p>
+                        <div class="timeline-tags">
+                            <span class="tag">LangGraph</span>
+                            <span class="tag">Azure OpenAI</span>
+                            <span class="tag">HIPAA</span>
+                            <span class="tag">FastAPI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2021">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Data Engineer</h3>
+                        <h4>Wipro</h4>
+                        <p>Engineered TB-scale ETL pipelines and deployed real-time fraud detection models on AWS</p>
+                        <div class="timeline-tags">
+                            <span class="tag">PySpark</span>
+                            <span class="tag">AWS</span>
+                            <span class="tag">Airflow</span>
+                            <span class="tag">MLflow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2021">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Junior Software Developer</h3>
+                        <h4>Exposys Data Labs</h4>
+                        <p>Built automated web scraping engines and Flask APIs for market data aggregation</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Scrapy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-visual ai-system"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Multi-Agent Medical Necessity System</h3>
+                        <p>Autonomous clinical reasoning system using LangGraph and Azure OpenAI for medical necessity adjudication</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">30%</span>
+                                <span class="metric-label">Improved Precision</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">40%</span>
+                                <span class="metric-label">Latency Reduction</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech">LangGraph</span>
+                            <span class="tech">Azure OpenAI</span>
+                            <span class="tech">FastAPI</span>
+                            <span class="tech">Redis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-visual fraud-detection"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Real-Time Fraud Detection</h3>
+                        <p>Low-latency fraud detection system with 10ms response time using Redis feature store</p>
+                        <div class="project-tech">
+                            <span class="tech">XGBoost</span>
+                            <span class="tech">AWS ECS</span>
+                            <span class="tech">Redis</span>
+                            <span class="tech">MLflow</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-visual data-pipeline"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>TB-Scale Data Pipeline</h3>
+                        <p>Migrated 2TB+ daily transaction data with 75% processing time reduction using PySpark optimizations</p>
+                        <div class="project-tech">
+                            <span class="tech">PySpark</span>
+                            <span class="tech">AWS EMR</span>
+                            <span class="tech">Airflow</span>
+                            <span class="tech">Terraform</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-visual rag-system"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Agentic RAG System</h3>
+                        <p>Hybrid retrieval engine combining keyword and vector search with cross-encoder reranking</p>
+                        <div class="project-tech">
+                            <span class="tech">Azure AI Search</span>
+                            <span class="tech">Pinecone</span>
+                            <span class="tech">Ragas</span>
+                            <span class="tech">MLflow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Matrix -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Generative AI & LLM</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="95">
+                            <span class="skill-name">Azure OpenAI (GPT-4o)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="90">
+                            <span class="skill-name">LangGraph</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">RAG Systems</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Cloud & Infrastructure</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="90">
+                            <span class="skill-name">Azure (AKS, AI Search)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">AWS (EMR, S3, SageMaker)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span class="skill-name">Terraform</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Big Data & Processing</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="95">
+                            <span class="skill-name">Apache Spark</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">PySpark</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span class="skill-name">Databricks</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="95">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span class="skill-name">Scala</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to build the future of AI?</h3>
+                    <p>I'm always interested in discussing opportunities in AI/ML, especially in healthcare, autonomous systems, and large-scale data processing.</p>
+                    <div class="contact-methods">
+                        <a href="mailto:krg3572@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>krg3572@gmail.com</span>
+                        </a>
+                        <a href="tel:+17043522568" class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (704) 352-2568</span>
+                        </a>
+                        <a href="https://linkedin.com/in/koushik-reddy-gunjala" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn Profile</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Koushik Reddy Gunjala. Built with ❤️ and AI.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
